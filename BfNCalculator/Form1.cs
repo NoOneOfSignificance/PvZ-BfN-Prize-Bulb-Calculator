@@ -22,6 +22,7 @@ namespace BfNCalculator
 
         }
 
+        //XP to Prize Bulbs
         private void button1_Click(object sender, EventArgs e)
         {
             string xpConvert = textBox1.Text;
@@ -30,7 +31,7 @@ namespace BfNCalculator
 
             if (double.TryParse(xpConvert, out result))
             {
-                double toPrizeBulb = result / 5000;
+                double toPrizeBulb = result / 4000;
                 textBox2.Text = Convert.ToString(toPrizeBulb);
             }
             else
@@ -41,6 +42,7 @@ namespace BfNCalculator
             }
         }
 
+        //Prize Bulb to XP
         private void button2_Click(object sender, EventArgs e)
         {
             string prizeBulbConvert = textBox2.Text;
@@ -49,7 +51,7 @@ namespace BfNCalculator
 
             if (double.TryParse(prizeBulbConvert, out result))
             {
-                double toXp = result * 5000;
+                double toXp = result * 4000;
                 textBox1.Text = Convert.ToString(toXp);
             }
             else
