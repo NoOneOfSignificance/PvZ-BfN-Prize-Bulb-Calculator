@@ -225,7 +225,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "PvZ BfN Prize Bulb Calculator v2.1";
+            this.Text = "PvZ BfN Prize Bulb Calculator v2.1.1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
